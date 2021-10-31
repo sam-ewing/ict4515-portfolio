@@ -1,0 +1,143 @@
+.event-notice {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.hotel-subheading {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.poi-address {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.poi-button {
+    background-color: #4985F5;
+    border: 2px solid #FFF;
+    color: #FFF;
+    display: block;
+    font-size: 14px;
+    margin: 10px 5%;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 90%;
+}
+
+.poi-button:hover {
+    background-color: #0A4AC2;
+}
+
+.poi-card {
+    border: 2px solid #000;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.poi-card-header {
+    background-color: #9FB6F5;
+    border-bottom: 2px solid #000;
+}
+
+.poi-card-header-text {
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.poi-item-blue {
+    background-color: #DFE6F6;
+    height: 210px;
+}
+
+.poi-item-content-spacer {
+    margin-top: 10px;
+}
+.poi-item-header {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.poi-item-sand {
+    background-color: #EFDBB5;
+    height: 210px;
+}
+
+.poi-item-text {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.poi-item-white {
+    background-color: #FFF;
+    height: 210px;
+}
+
+section p:last-of-type {
+    margin-top: 0;
+}
+
+ul {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* ================================================================================================ */
+/* SMALL DESKTOP STYLING  */
+/* ================================================================================================ */
+
+@media  (max-width:1200px) {
+
+    .poi-item-blue,
+    .poi-item-sand,
+    .poi-item-white {
+        height: 280px;
+    }
+
+    
+}
+
+/* ================================================================================================ */
+/* TABLET STYLING  */
+/* ================================================================================================ */
+@media  (max-width:768px) {
+
+    .poi-item-blue,
+    .poi-item-white {
+        background-color: #DFE6F6;
+        height: 200px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .poi-item-sand {
+        height: 200px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .poi-section-spacer {
+        margin-top: 30px;
+    }
+
+}

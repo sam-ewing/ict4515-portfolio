@@ -1,0 +1,600 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+    background-color: #4985F5;
+    border: 2px solid #FFF;
+    color: #FFF;
+    display: block;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 250px;
+}
+
+.button:hover {
+    background-color: #0A4AC2;
+}
+
+.button-back-to-top {
+    background-color: #0C59E9;
+    border: 2px solid #FFF;
+    color: #FFF;
+    display: block;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.button-back-to-top:hover {
+    background-color: #4985F5;
+}
+
+.column-30 {
+    display: inline-block;
+    padding: 0;
+    width: 30%;
+}
+
+.column-50 {
+    display: inline-block;
+    padding: 0;
+    width: 50%;
+}
+
+.column-70 {
+    display: inline-block;
+    padding: 0;
+    width: 70%;
+}
+
+.column-container {
+    display: flex;
+    width: 100%;
+}
+
+.contact-info {
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+}
+
+.contact-person {
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.content-background-dark-blue {
+    background-color: #9FB6F5;
+    /* TB - LR */
+    padding: 50px 10%;
+}
+
+.content-background-light-blue {
+    background-color: #DFE6F6;
+    padding: 50px 10%;
+}
+
+.content-background-sand {
+    background-color: #EFDBB5;
+    padding: 50px 10%;
+}
+
+.content-background-white {
+    background-color: #FFF;
+    padding: 50px 10%;
+}
+
+.date-subheader {
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.event-calendar {
+    display: flex;
+    width: 100%;
+    border: 2px solid #000;
+}
+
+.event-calendar-day {
+    border-right: 2px solid #000;
+    display: inline-block;
+    padding: 0;
+    width: 25%;
+}
+
+.event-calendar-day:last-child {
+    border-right: 0;
+    display: inline-block;
+    padding: 0;
+    width: 25%;    
+}
+
+.event-calendar-day-header {
+    background-color: #9FB6F5;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.event-calendar-entry {
+    align-items: center;
+    background-color: #FFF;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+}
+
+.event-calendar-entry:nth-child(odd) {
+    background-color: #DFE6F6;
+}
+
+.event-logo-stand-in {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+}
+
+.event-title {
+    font-size: 18px;
+    text-align: center;
+}
+
+footer {
+    padding: 10px;
+    background-color: rgba(35,35,35,0.95);
+}
+
+
+.footer-nav {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.footer-nav-button {
+    border: 2px solid rgba(35,35,35,0);
+    color: #FFF;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px 6px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.footer-nav-button:hover {
+    border: 2px solid #FFF;
+}
+
+.footer-nav-button-active {
+    border: 2px solid #FFF;
+    color: #FFF;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px 6px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.footer-nav-button-group {
+    text-align: center;
+}
+
+.footer-nav-position {
+    margin-bottom: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+    text-align: center;
+    width: 60%;
+}
+
+footer p {
+    color: #CCC;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+footer p:last-child {
+    color: #CCC;
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header {
+    background-color: rgba(35,35,35,0.95);
+    border-bottom: 2px solid #FFF;
+    padding: 10px;
+    padding-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    margin: 0;
+    width: 100%;
+}
+
+.hotel-info {
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.hotel-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px; 
+}
+
+.mafcc-banner-link {
+    color: #FFF;
+    font-size: 24px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 50%;
+}
+
+.mafcc-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+.nav-button {
+    border: 2px solid rgba(35,35,35,0);
+    color: #FFF;
+    cursor: pointer;
+    display: inline;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-button-active {
+    border: 2px solid #FFF;
+    color: #FFF;
+    cursor: pointer;
+    display: inline;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-button:hover {
+    border: 2px solid #FFF;
+}
+
+.nav-button-group {
+    text-align: right;
+}
+
+.nav-button-col, .nav-button-col-last  {
+    display: inline-block;
+
+}
+
+.nav-col {
+    align-self: center;
+    display: inline-block;
+    padding: 0;
+    width: 50%;
+}
+
+.nav-positioning {
+    align-self: center;
+    display: flex;
+    margin-right: 20px;
+    position: absolute;
+    right: 0px;
+}
+
+.nav-positioning-footer {
+    align-self: center;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.questions-subheader {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section p:last-of-type {
+    margin-top: 15px;
+}
+
+.section-title {
+    margin-bottom: 40px;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title-subheader {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ================================================================================================ */
+/* SMALL DESKTOP STYLING  */
+/* ================================================================================================ */
+
+@media  (max-width:1200px) {
+
+    .event-logo-stand-in {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 315px; 
+    }
+
+    .hotel-photo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 290px; 
+    }
+
+    nav {
+        display: block;
+    }
+
+    .nav-button-group {
+        text-align: center;
+    }
+
+    .nav-col {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-col:last-child {
+        margin-top: 15px;
+        display: block;
+        width: 100%;
+    }
+
+    
+}
+
+
+/* ================================================================================================ */
+/* TABLET STYLING  */
+/* ================================================================================================ */
+@media  (max-width:768px) {
+
+    address {
+        margin-top: 20px
+    }
+    
+
+    .button {
+        background-color: #4985F5;
+        border: 2px solid #FFF;
+        color: #FFF;
+        display: block;
+        font-size: 18px;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 25px;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 70%;
+    }
+
+    .column-30,
+    .column-50,
+    .column-70 {
+        display: block;
+        width: 100%;
+    }
+
+    .column-container {
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    
+    .date-subheader {
+        font-size: 18px;
+    }
+
+    .event-calendar {
+        border: 0;
+        display: block;
+    }
+
+    .event-calendar-day {
+        border: 1px solid #000;
+        display: block;
+        margin-bottom: 25px;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .event-calendar-day:last-child {
+        border: 1px solid #000;
+        display: block;
+        margin-bottom: 25px;
+        padding: 0;
+        width: 100%;   
+    }
+
+    .footer-nav {
+        display: block;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .hotel-photo {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+
+    .mafcc-banner-link {
+        color: #FFF;
+        font-size: 24px;
+        text-transform: uppercase;
+        text-decoration: none;
+        width: 100%;
+    }
+
+    .mafcc-logo {
+        margin-bottom: 20px;
+    }
+
+    .nav-button  {
+        display: block;
+        margin-bottom: 10px;
+        padding: 4px 6px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-button-active  {
+        display: block;
+        margin-bottom: 10px;
+        padding: 4px 6px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-button-group  {
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    } 
+
+    .nav-button-col  {
+        align-self: center;
+        display: inline-block;
+        padding: 0;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        width: 95%;
+    }
+
+    .nav-button-col-last {
+        display: flex;
+        vertical-align: middle;
+        
+    }
+
+    .nav-button-col-last .nav-button {
+        vertical-align: middle;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    
+    .questions-subheader:last-of-type {
+        margin-top: 35px;
+    }
+
+    .title-subheader {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+/* ================================================================================================ */
+/* PHONE STYLING  */
+/* ================================================================================================ */
+@media (max-width:480px), (max-height: 480px) {
+    
+    .event-logo-stand-in {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px; 
+    }
+
+}

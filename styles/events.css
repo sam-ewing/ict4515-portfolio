@@ -1,0 +1,56 @@
+
+
+.activity-image {
+    max-width: 250px;
+}
+
+.activity-title {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.event-card-blue {
+    background-color: #DFE6F6;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.event-card-white {
+    background-color: #FFF;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+/* ================================================================================================ */
+/* SMALL DESKTOP STYLING  */
+/* ================================================================================================ */
+
+@media  (max-width:1200px) {
+
+    .activity-image {
+        max-width: 200px;
+    }
+
+    
+}
+
+/* ================================================================================================ */
+/* TABLET STYLING  */
+/* ================================================================================================ */
+@media  (max-width:768px) {
+
+    .activity-image {
+        display: block;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 200px;
+    }
+
+}

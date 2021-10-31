@@ -1,0 +1,157 @@
+.address-spacer {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button-hotel-reservation,
+.button-registration-form {
+    background-color: #4985F5;
+    border: 2px solid #FFF;
+    color: #FFF;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 425px;
+}
+
+.button-hotel-reservation:hover,
+.button-registration-form:hover,
+.button-weather-forecast:hover {
+    background-color: #0A4AC2;
+}
+
+.button-weather-forecast {
+    background-color: #4985F5;
+    border: 2px solid #FFF;
+    color: #FFF;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 300px;
+}
+
+.clubpo-info {
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.columngroup-spacer {
+    border: 2px solid #000;
+    margin-top: 30px;
+}
+
+.hotel-option-sand {
+    background-color: #EFDBB5;
+    height: 120px;
+}
+
+.hotel-option-white {
+    background-color: #FFF;
+    height: 120px;
+}
+
+.registration-checks {
+    color: rgb(194, 59, 59);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.registration-hotel-phone {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.registration-hotel-subheading {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.registration-substep {
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.registration-text {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.travel-info-sand {
+    background-color: #EFDBB5;
+    height: 150px;
+}
+
+.travel-info-white {
+    background-color: #FFF;
+    height: 150px;
+}
+
+/* ================================================================================================ */
+/* SMALL DESKTOP STYLING  */
+/* ================================================================================================ */
+
+@media  (max-width:1200px) {
+
+    .hotel-option-sand {
+        background-color: #EFDBB5;
+        height: 140px;
+    }
+    
+    .hotel-option-white {
+        background-color: #FFF;
+        height: 140px;
+    }
+
+    
+}
+
+/* ================================================================================================ */
+/* PHONE STYLING  */
+/* ================================================================================================ */
+@media (max-width:480px), (max-height: 480px) {
+    
+    .button-hotel-reservation,
+    .button-registration-form,
+    .button-weather-forecast {
+        width: 250px;
+    }
+
+    .hotel-option-sand {
+        background-color: #EFDBB5;
+        height: 160px;
+    }
+    
+    .hotel-option-white {
+        background-color: #FFF;
+        height: 160px;
+    }
+
+}
