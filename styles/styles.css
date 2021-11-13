@@ -393,6 +393,14 @@ section p:last-of-type {
 
 @media  (max-width:1200px) {
 
+    .event-calendar-entry {
+        align-items: center;
+        background-color: #FFF;
+        display: flex;
+        height: 110px;
+        justify-content: center;
+    }
+    
     .event-logo-stand-in {
         display: block;
         margin-left: auto;
@@ -426,10 +434,19 @@ section p:last-of-type {
         display: block;
         width: 100%;
     }
-
-    
+   
 }
 
+
+@media  (max-width:850px) {
+    .event-calendar-entry {
+        align-items: center;
+        background-color: #FFF;
+        display: flex;
+        height: 140px;
+        justify-content: center;
+    }
+}
 
 /* ================================================================================================ */
 /* TABLET STYLING  */

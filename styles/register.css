@@ -65,6 +65,11 @@
     height: 120px;
 }
 
+.note-margin {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
 .registration-checks {
     color: rgb(194, 59, 59);
     font-size: 18px;
