@@ -135,8 +135,53 @@
         height: 140px;
     }
 
+    .button-hotel-reservation,
+    .button-registration-form,
+    .button-weather-forecast {
+        width: 375px;
+    }
+
     
 }
+
+/* ================================================================================================ */
+/* TABLET STYLING  */
+/* ================================================================================================ */
+
+@media  (max-width:900px) {
+
+
+    .travel-info-sand {
+        background-color: #EFDBB5;
+        height: 190px;
+    }
+
+    .button-hotel-reservation,
+    .button-registration-form,
+    .button-weather-forecast {
+        width: 300px;
+    }
+
+    
+}
+
+@media  (max-width:768px) {
+
+
+    .travel-info-sand {
+        background-color: #EFDBB5;
+        height: 140px;
+    }
+
+    .button-hotel-reservation,
+    .button-registration-form,
+    .button-weather-forecast {
+        width: 300px;
+    }
+
+    
+}
+
 
 /* ================================================================================================ */
 /* PHONE STYLING  */
@@ -159,4 +204,10 @@
         height: 160px;
     }
 
+    .travel-info-sand {
+        background-color: #EFDBB5;
+        height: 180px;
+    }
+
+    
 }
